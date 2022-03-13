@@ -3769,6 +3769,15 @@ ol {
 	transform: translateX(600px);
 	transition: all 0.7s ease-in-out 0.3s;
   }
+
+@media only screen and (min-width: 1520px){
+	.slide.current .content1 {
+		opacity: 1;
+		transform: translateX(550px);
+		transition: all 0.7s ease-in-out 0.3s;
+	  }
+}
+
   .slide .content2 {
 	position: absolute;
 	top: 34%;

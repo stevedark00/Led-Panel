@@ -3773,7 +3773,7 @@ ol {
 @media only screen and (min-width: 1520px){
 	.slide.current .content1 {
 		opacity: 1;
-		transform: translateX(300px);
+		transform: translateX(100px);
 		transition: all 0.7s ease-in-out 0.3s;
 	  }
 }

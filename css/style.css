@@ -3773,7 +3773,7 @@ ol {
 @media only screen and (min-width: 1520px){
 	.slide.current .content1 {
 		opacity: 1;
-		transform: translateX(550px);
+		transform: translateX(300px);
 		transition: all 0.7s ease-in-out 0.3s;
 	  }
 }
@@ -3938,8 +3938,3 @@ ol {
 	}
 
   }
-
-
-.spad{
-	display: none;
-}

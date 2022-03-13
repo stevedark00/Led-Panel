@@ -3770,10 +3770,10 @@ ol {
 	transition: all 0.7s ease-in-out 0.3s;
   }
 
-@media only screen and (min-width: 1520px){
+@media only screen and (min-width: 1920px){
 	.slide.current .content1 {
 		opacity: 1;
-		transform: translateX(100px);
+		transform: translateX(520px);
 		transition: all 0.7s ease-in-out 0.3s;
 	  }
 }
@@ -3792,8 +3792,8 @@ ol {
 	font-size: 60px;
 	font-weight: 400;
 	line-height: 1.2em;
-   color:#ffffff;
-  margin-bottom: 10px;
+	   color:#ffffff;
+	  margin-bottom: 10px;
 }
 
 .slide .content2 button{
@@ -3818,6 +3818,15 @@ ol {
   transform: translateX(600px);
   transition: all 0.7s ease-in-out 0.3s;
 }
+
+@media only screen and (min-width: 1920px){
+	.slide.current .content2 {
+	  opacity: 1;
+	  transform: translateX(530px);
+	  transition: all 0.7s ease-in-out 0.3s;
+	}
+}
+
 
 .slide .content3 {
 	position: absolute;
@@ -3859,6 +3868,15 @@ ol {
   transform: translateX(600px);
   transition: all 0.7s ease-in-out 0.3s;
 }
+
+@media only screen and (min-width: 1920px){
+	.slide.current .content3 {
+	  opacity: 1;
+	  transform: translateX(440px);
+	  transition: all 0.7s ease-in-out 0.3s;
+	}
+}
+
   
   .buttons button#next {
 	position: absolute;
